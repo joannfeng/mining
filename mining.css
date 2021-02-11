@@ -1,1 +1,95 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+}
 
+/* crusty wall layer 🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣*/
+#layer-1 {
+    position: fixed; /* Sit on top of the page content */
+    justify-content: center;
+    align-items: center;
+    background-color:lightgray; 
+    width: 100vmin;
+    height: 100vmin;
+    z-index:0;
+    
+}
+
+/* crusty gem layer 🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣*/
+#layer-gem {
+    position: fixed; /* Sit on top of the page content */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color:red; 
+    width: 100vmin;
+    height: 100vmin;
+    z-index:1;
+    
+}
+
+/* crusty light brown dirt layer 🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣*/
+#layer-2 {
+    position: fixed; /* Sit on top of the page content */
+    justify-content: center;
+    align-items: center;
+    background-color:burlywood; 
+    width: 100vmin;
+    height: 100vmin;
+    z-index:2
+}
+
+/* crusty brown brown dirt layer 🤣🤣🤣🤣🤣🤣🤣🤣*/
+#layer-3 {
+    position: fixed; /* Sit on top of the page content */
+    justify-content: center;
+    align-items: center;
+    background-color:darkgoldenrod; 
+    width: 100vmin;
+    height: 100vmin; 
+    z-index:3;
+}
+
+/* crusty dark brown dirt layer 🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣 */
+#layer-4 {
+    visibility: visible;
+    position: fixed; /* Sit on top of the page content */
+    justify-content: center;
+    align-items: center;
+    background-color:dimgray; 
+    width: 100vmin;
+    height: 100vmin;
+    z-index:4;
+}
+
+
+/*
+.alert {
+  padding: 15px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+}
+
+#example {
+    width: 300px;
+    height: 200px;
+    border: 25px solid rgb(41, 65, 38);
+    padding: 20px;
+    overflow: auto;
+}
+
+#button {
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: black;
+    background-color: white;
+}
+*/
